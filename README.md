@@ -1,4 +1,4 @@
-# Qwen2.5-3B Domain Expert (Fine-Tuning)
+# Qwen2.5-3B Tuned_by_Pino
 
 **Stand: 2026-09-09**  
 Deutschsprachiger Domain-Assistent basierend auf **Qwen/Qwen2.5-3B-Instruct** mit **QLoRA 4-bit (NF4)** und **TRL/PEFT** – ohne Axolotl-Abhängigkeit. Optimiert für **RTX 3060 12 GB**.
