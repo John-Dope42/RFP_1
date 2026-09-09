@@ -1,0 +1,1147 @@
+{
+  "checked_at": "2026-09-09T10:13:29Z",
+  "results": [
+    {
+      "domain": "arma3_technical",
+      "id": "ace3_repo",
+      "name": "ACE3 Repository",
+      "url": "https://github.com/acemod/ACE3",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/acemod/ACE3",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "arma3_technical",
+      "id": "acre2_repo",
+      "name": "ACRE2",
+      "url": "https://github.com/IDI-Systems/acre2",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/IDI-Systems/acre2",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "arma3_technical",
+      "id": "alive_repo",
+      "name": "ALiVE.OS",
+      "url": "https://github.com/ALiVEOS/ALiVE.OS",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/ALiVEOS/ALiVE.OS",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "arma3_technical",
+      "id": "antistasi_repo",
+      "name": "A3 Antistasi",
+      "url": "https://github.com/A3Antistasi/A3-Antistasi",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/A3Antistasi/A3-Antistasi",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "arma3_technical",
+      "id": "arma3_modding",
+      "name": "Arma 3 Modding Category",
+      "url": "https://community.bohemia.net/wiki/Category:Arma_3%3A_Editing",
+      "status": "reachable_restricted",
+      "http_status": 403,
+      "final_url": "https://community.bohemia.net/wiki/Category:Arma_3%3A_Editing",
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 403 (endpoint reachable; automated request restricted)"
+    },
+    {
+      "domain": "arma3_technical",
+      "id": "arma3_samples",
+      "name": "Bohemia Arma 3 Samples",
+      "url": "https://community.bohemia.net/wiki/Arma_3%3A_Asset_Samples",
+      "status": "reachable_restricted",
+      "http_status": 403,
+      "final_url": "https://community.bohemia.net/wiki/Arma_3%3A_Asset_Samples",
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 403 (endpoint reachable; automated request restricted)"
+    },
+    {
+      "domain": "arma3_technical",
+      "id": "arma3_tools",
+      "name": "Arma 3 Tools Wiki Category",
+      "url": "https://community.bohemia.net/wiki/Category:Arma_3%3A_Official_Tools",
+      "status": "reachable_restricted",
+      "http_status": 403,
+      "final_url": "https://community.bohemia.net/wiki/Category:Arma_3%3A_Official_Tools",
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 403 (endpoint reachable; automated request restricted)"
+    },
+    {
+      "domain": "arma3_technical",
+      "id": "arma3_units",
+      "name": "Arma 3 Units",
+      "url": "https://units.arma3.com/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://units.arma3.com/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "arma3_technical",
+      "id": "cba_repo",
+      "name": "CBA_A3 Repository",
+      "url": "https://github.com/CBATeam/CBA_A3",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/CBATeam/CBA_A3",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "arma3_technical",
+      "id": "cup_project_site",
+      "name": "CUP (Community Upgrade Project)",
+      "url": "https://www.cup-arma3.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.cup-arma3.org/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "arma3_technical",
+      "id": "tfar_repo",
+      "name": "Task Force Arma 3 Radio",
+      "url": "https://github.com/michail-nikolaev/task-force-arma-3-radio",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/michail-nikolaev/task-force-arma-3-radio",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "bfr_cannabis",
+      "name": "BfR Cannabis Risk Assessment",
+      "url": "https://www.bfr.bund.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bfr.bund.de/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "cdc_cannabis",
+      "name": "CDC Cannabis",
+      "url": "https://www.cdc.gov/cannabis/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.cdc.gov/cannabis/about/index.html",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "drugscience_cannabis",
+      "name": "Drug Science Cannabis",
+      "url": "https://www.drugscience.org.uk/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.drugscience.org.uk/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "emcdda_cannabis_archive",
+      "name": "EUDA Cannabis Topic",
+      "url": "https://www.euda.europa.eu/topics/cannabis_en",
+      "status": "reachable_restricted",
+      "http_status": 403,
+      "final_url": "https://www.euda.europa.eu/topics/cannabis_en",
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 403 (endpoint reachable; automated request restricted)"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "fda_cannabis",
+      "name": "FDA Cannabis",
+      "url": "https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "frontiers_cannabis",
+      "name": "Frontiers Cannabis Research",
+      "url": "https://www.frontiersin.org/research-topics/16712/behind-the-smoke-and-mirrors-reflections-on-improving-cannabis-production-and-investigating-medical-potential",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.frontiersin.org/research-topics/16712/behind-the-smoke-and-mirrors-reflections-on-improving-cannabis-production-and-investigating-medical-potential/magazine",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "health_canada_cannabis",
+      "name": "Health Canada Cannabis",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis.html",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis.html",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "health_canada_research",
+      "name": "Health Canada Cannabis Research",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/industry-licensees-applicants/types-research.html",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/industry-licensees-applicants/types-research.html",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "journal_cannabis_research",
+      "name": "Journal of Cannabis Research",
+      "url": "https://jcannabisresearch.biomedcentral.com/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://link.springer.com/journal/42238",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "national_academies_cannabis",
+      "name": "National Academies Cannabis Report",
+      "url": "https://nap.nationalacademies.org/catalog/24625/the-health-effects-of-cannabis-and-cannabinoids",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nationalacademies.org/publications/24625",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "nida_cannabis",
+      "name": "NIDA Cannabis Research",
+      "url": "https://nida.nih.gov/research-topics/cannabis-marijuana",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://nida.nih.gov/research-topics/cannabis-marijuana",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "cannabis_zucht_sommelier",
+      "id": "pubchem_cannabinoids",
+      "name": "PubChem",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://pubchem.ncbi.nlm.nih.gov/",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "bmel_agriculture",
+      "name": "BMEL Landwirtschaft",
+      "url": "https://www.bmel.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bmleh.de/DE/Home/home_node.html",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "cabi",
+      "name": "CABI",
+      "url": "https://www.cabi.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.cabi.org/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "eppo",
+      "name": "EPPO",
+      "url": "https://www.eppo.int/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.eppo.int/",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "fao_agriculture",
+      "name": "FAO Agriculture",
+      "url": "https://www.fao.org/food-agriculture-statistics/en/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.fao.org/about/who-we-are/departments/statistics-division",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "jki",
+      "name": "Julius Kühn-Institut",
+      "url": "https://www.julius-kuehn.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.julius-kuehn.de/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "kew",
+      "name": "Royal Botanic Gardens Kew",
+      "url": "https://www.kew.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.kew.org/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "missouri_botanical",
+      "name": "Missouri Botanical Garden",
+      "url": "https://www.missouribotanicalgarden.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.missouribotanicalgarden.org/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "ncstate_extension",
+      "name": "NC State Extension Gardener",
+      "url": "https://extensiongardener.ces.ncsu.edu/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://extensiongardener.ces.ncsu.edu/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "rbge",
+      "name": "Royal Botanic Garden Edinburgh",
+      "url": "https://www.rbge.org.uk/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.rbge.org.uk/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "rhs",
+      "name": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/",
+      "status": "not_found",
+      "http_status": 404,
+      "final_url": "https://www.rhs.org.uk/",
+      "content_type": "text/html; charset=utf-8",
+      "error": "HTTP 404 (auch mit Standard-Browser-Header)"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "rhs_plants",
+      "name": "RHS Plant Search",
+      "url": "https://www.rhs.org.uk/plants/search-form",
+      "status": "not_found",
+      "http_status": 404,
+      "final_url": "https://www.rhs.org.uk/plants/search-form",
+      "content_type": "text/html; charset=utf-8",
+      "error": "HTTP 404 (auch mit Standard-Browser-Header)"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "umn_extension",
+      "name": "University of Minnesota Extension Garden",
+      "url": "https://extension.umn.edu/yard-and-garden",
+      "status": "reachable_restricted",
+      "http_status": 403,
+      "final_url": "https://extension.umn.edu/yard-and-garden",
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 403 (endpoint reachable; automated request restricted)"
+    },
+    {
+      "domain": "gaertnern",
+      "id": "usda_plants",
+      "name": "USDA Plants Database",
+      "url": "https://plants.usda.gov/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://plants.sc.egov.usda.gov:443/",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "military_general",
+      "id": "army_university_press",
+      "name": "Army University Press",
+      "url": "https://www.armyupress.army.mil/Journals/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.armyupress.army.mil/Journals/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "military_general",
+      "id": "dcdc",
+      "name": "UK Defence Futures (vormals DCDC)",
+      "url": "https://www.gov.uk/government/groups/development-concepts-and-doctrine-centre",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.gov.uk/government/groups/development-concepts-and-doctrine-centre",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "military_general",
+      "id": "defence_academy_uk",
+      "name": "UK Defence Academy",
+      "url": "https://www.da.mod.uk/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.da.mod.uk/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "military_general",
+      "id": "ifsh",
+      "name": "IFSH",
+      "url": "https://ifsh.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ifsh.de/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "military_general",
+      "id": "jcs_joint_doctrine",
+      "name": "Joint Chiefs Joint Doctrine",
+      "url": "https://www.jcs.mil/Doctrine/Joint-Doctrine-Pubs/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.jcs.mil/Doctrine/Joint-Doctine-Pubs/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "military_general",
+      "id": "jcs_operations",
+      "name": "Joint Operations Doctrine",
+      "url": "https://www.jcs.mil/doctrine/joint-doctrine-pubs/3-0-operations-series/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.jcs.mil/doctrine/joint-doctrine-pubs/3-0-operations-series/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "military_general",
+      "id": "military_review",
+      "name": "Military Review",
+      "url": "https://www.armyupress.army.mil/Journals/Journals/Military-Review/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.armyupress.army.mil/Journals/Journals/Military-Review/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "military_general",
+      "id": "nato_strategic_concepts",
+      "name": "NATO Strategic Concepts",
+      "url": "https://www.nato.int/en/about-us/official-texts-and-resources/strategic-concepts",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nato.int/en/about-us/official-texts-and-resources/strategic-concepts",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "military_general",
+      "id": "nato_topics",
+      "name": "NATO Topics",
+      "url": "https://www.nato.int/en/about-us/official-texts-and-resources",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nato.int/en/about-us/official-texts-and-resources",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "military_general",
+      "id": "swp",
+      "name": "Stiftung Wissenschaft und Politik",
+      "url": "https://www.swp-berlin.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.swp-berlin.org/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "military_general",
+      "id": "tradoc",
+      "name": "T2COM (Nachfolgeorganisation von TRADOC)",
+      "url": "https://www.army.mil/t2com",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.army.mil/t2com",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "military_general",
+      "id": "zmsbw",
+      "name": "ZMSBw",
+      "url": "https://zms.bundeswehr.de/",
+      "status": "reachable_ua_sensitive",
+      "http_status": 200,
+      "final_url": "https://zms.bundeswehr.de/de/",
+      "content_type": "text/html",
+      "error": "HTTP 404 nur mit Tool-Header, HTTP 200 mit Standard-Browser-Header - Quelle vermutlich live, aber WAF-empfindlich"
+    },
+    {
+      "domain": "milsim",
+      "id": "ace3_milsim",
+      "name": "ACE3 Repository",
+      "url": "https://github.com/acemod/ACE3",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/acemod/ACE3",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "milsim",
+      "id": "acre2_milsim",
+      "name": "ACRE2 Repository",
+      "url": "https://github.com/IDI-Systems/acre2",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/IDI-Systems/acre2",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "milsim",
+      "id": "alive_milsim",
+      "name": "ALiVE Repository",
+      "url": "https://github.com/ALiVEOS/ALiVE.OS",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/ALiVEOS/ALiVE.OS",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "milsim",
+      "id": "antistasi_milsim",
+      "name": "Antistasi Repository",
+      "url": "https://github.com/A3Antistasi/A3-Antistasi",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/A3Antistasi/A3-Antistasi",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "milsim",
+      "id": "arma3_modding_community",
+      "name": "Arma 3 Modding Community",
+      "url": "https://forums.bohemia.net/forums/forum/116-arma-3-editing/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://forums.bohemia.net/forums/forum/116-take-on-helicopters-modelling-o2/",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "domain": "milsim",
+      "id": "arma_general_guides",
+      "name": "Arma 3 General Guides Compilation",
+      "url": "https://forums.bohemia.net/forums/topic/227697-arma-3-general-game-guides-faqs-manuals-tutorials-compilation/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://forums.bohemia.net/forums/topic/227697-arma-3-general-game-guides-faqs-manuals-tutorials-compilation/",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "domain": "milsim",
+      "id": "arma_scripting_forum",
+      "name": "Arma 3 Scripting Forum",
+      "url": "https://forums.bohemia.net/forums/forum/162-arma-3-scripting/",
+      "status": "reachable_restricted",
+      "http_status": 403,
+      "final_url": "https://forums.bohemia.net/forums/forum/162-arma-3-addons-configs-scripting/",
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 403 (endpoint reachable; automated request restricted)"
+    },
+    {
+      "domain": "milsim",
+      "id": "arma_steam_workshop",
+      "name": "Arma 3 Steam Workshop",
+      "url": "https://steamcommunity.com/workshop/browse/?appid=107410",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://steamcommunity.com/workshop/browse/?appid=107410",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "milsim",
+      "id": "arma_units",
+      "name": "Arma 3 Units",
+      "url": "https://units.arma3.com/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://units.arma3.com/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "milsim",
+      "id": "bohemia_forums",
+      "name": "Bohemia Interactive Forums",
+      "url": "https://forums.bohemia.net/",
+      "status": "reachable_restricted",
+      "http_status": 403,
+      "final_url": "https://forums.bohemia.net/",
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 403 (endpoint reachable; automated request restricted)"
+    },
+    {
+      "domain": "milsim",
+      "id": "shack_tactical",
+      "name": "Shack Tactical",
+      "url": "https://dslyecxi.com/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://dslyecxi.com/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "milsim",
+      "id": "tfar_milsim",
+      "name": "TFAR Repository",
+      "url": "https://github.com/michail-nikolaev/task-force-arma-3-radio",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://github.com/michail-nikolaev/task-force-arma-3-radio",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "ethics_unwrapped",
+      "name": "Ethics Unwrapped",
+      "url": "https://ethicsunwrapped.utexas.edu/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://ethicsunwrapped.utexas.edu/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "gutenberg",
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.gutenberg.org/",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "iep",
+      "name": "Internet Encyclopedia of Philosophy",
+      "url": "https://iep.utm.edu/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://iep.utm.edu/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "internet_classics_archive",
+      "name": "Internet Classics Archive",
+      "url": "http://classics.mit.edu/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://classics.mit.edu/",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "mit_ocw_philosophy",
+      "name": "MIT OpenCourseWare Philosophy",
+      "url": "https://ocw.mit.edu/search/?q=philosophy",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://ocw.mit.edu/search/?q=philosophy",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "openlearn",
+      "name": "OpenLearn",
+      "url": "https://www.open.edu/openlearn/",
+      "status": "reachable_restricted",
+      "http_status": 403,
+      "final_url": "https://www.open.edu/openlearn/",
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 403 (endpoint reachable; automated request restricted)"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "openstax_philosophy",
+      "name": "OpenStax Philosophy",
+      "url": "https://openstax.org/subjects/humanities",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://openstax.org/subjects/humanities",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "philarchive",
+      "name": "PhilArchive",
+      "url": "https://philarchive.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://philarchive.org/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "philpapers",
+      "name": "PhilPapers",
+      "url": "https://philpapers.org/",
+      "status": "reachable_restricted",
+      "http_status": 403,
+      "final_url": "https://philpapers.org/",
+      "content_type": "text/html; charset=UTF-8",
+      "error": "HTTP 403 (endpoint reachable; automated request restricted)"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "plato_de",
+      "name": "Deutsche Philosophie Quellen",
+      "url": "https://www.textlog.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.textlog.de/",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "sep",
+      "name": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://plato.stanford.edu/",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "philosophy_ethics",
+      "id": "wikisource_en",
+      "name": "English Wikisource",
+      "url": "https://en.wikisource.org/wiki/Main_Page",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://en.wikisource.org/wiki/Main_Page",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "programming",
+      "id": "cppreference",
+      "name": "cppreference",
+      "url": "https://en.cppreference.com/w/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://en.cppreference.com/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "programming",
+      "id": "docker_docs",
+      "name": "Docker Docs",
+      "url": "https://docs.docker.com/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://docs.docker.com/",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "programming",
+      "id": "git_docs",
+      "name": "Git Documentation",
+      "url": "https://git-scm.com/docs",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://git-scm.com/docs",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "programming",
+      "id": "go_docs",
+      "name": "Go Documentation",
+      "url": "https://go.dev/doc/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://go.dev/doc/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "programming",
+      "id": "java_oracle_docs",
+      "name": "Oracle Java Docs",
+      "url": "https://docs.oracle.com/en/java/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://docs.oracle.com/en/java/",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "programming",
+      "id": "kubernetes_docs",
+      "name": "Kubernetes Docs",
+      "url": "https://kubernetes.io/docs/home/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://kubernetes.io/docs/home/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "programming",
+      "id": "linux_kernel_docs",
+      "name": "Linux Kernel Docs",
+      "url": "https://docs.kernel.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://docs.kernel.org/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "programming",
+      "id": "microsoft_learn_dotnet",
+      "name": "Microsoft Learn .NET",
+      "url": "https://learn.microsoft.com/dotnet/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://learn.microsoft.com/de-de/dotnet/",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "programming",
+      "id": "microsoft_learn_python",
+      "name": "Microsoft Learn Python",
+      "url": "https://learn.microsoft.com/training/modules/intro-to-python/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://learn.microsoft.com/de-de/training/browse/",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "programming",
+      "id": "nodejs_docs",
+      "name": "Node.js API Docs",
+      "url": "https://nodejs.org/docs/latest/api/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://nodejs.org/docs/latest/api/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "programming",
+      "id": "postgresql_docs",
+      "name": "PostgreSQL Docs",
+      "url": "https://www.postgresql.org/docs/current/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.postgresql.org/docs/current/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "programming",
+      "id": "react_docs",
+      "name": "React Docs",
+      "url": "https://react.dev/learn",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://react.dev/learn",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "programming",
+      "id": "rust_book",
+      "name": "The Rust Book",
+      "url": "https://doc.rust-lang.org/book/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://doc.rust-lang.org/book/",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "programming",
+      "id": "sqlite_docs",
+      "name": "SQLite Docs",
+      "url": "https://www.sqlite.org/docs.html",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.sqlite.org/docs.html",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "programming",
+      "id": "typescript_docs",
+      "name": "TypeScript Handbook",
+      "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "bag",
+      "name": "Bundesarbeitsgericht",
+      "url": "https://www.bundesarbeitsgericht.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bundesarbeitsgericht.de/startseite/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "bfh",
+      "name": "Bundesfinanzhof",
+      "url": "https://www.bundesfinanzhof.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bundesfinanzhof.de/de/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "bgh",
+      "name": "Bundesgerichtshof",
+      "url": "https://www.bundesgerichtshof.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bundesgerichtshof.de/DE/Home/home_node.html",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "bpatg",
+      "name": "Bundespatentgericht",
+      "url": "https://www.bundespatentgericht.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bundespatentgericht.de/DE/Home/home_node.html",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "bsg",
+      "name": "Bundessozialgericht",
+      "url": "https://www.bsg.bund.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bsg.bund.de/DE/Home/home_node.html",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "bundesrat",
+      "name": "Bundesrat",
+      "url": "https://www.bundesrat.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bundesrat.de/DE/homepage/homepage-node.html",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "bundestag_dip",
+      "name": "Deutscher Bundestag Dokumentation",
+      "url": "https://www.bundestag.de/dokumente",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bundestag.de/dokumente",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "bverfg",
+      "name": "Bundesverfassungsgericht",
+      "url": "https://www.bundesverfassungsgericht.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bundesverfassungsgericht.de/DE/Home/home_node.html",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "bverwg",
+      "name": "Bundesverwaltungsgericht",
+      "url": "https://www.bverwg.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.bverwg.de/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "curia",
+      "name": "CURIA EuGH",
+      "url": "https://curia.europa.eu/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://curia.europa.eu/site/",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "eu_justice",
+      "name": "European e-Justice",
+      "url": "https://e-justice.europa.eu/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://e-justice.europa.eu/select-language?destination=/node/2",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "nlex",
+      "name": "N-Lex",
+      "url": "https://n-lex.europa.eu/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://n-lex.europa.eu/",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "recht_de_eu",
+      "id": "recht_bund",
+      "name": "Bundesgesetzblatt Portal",
+      "url": "https://www.recht.bund.de/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.recht.bund.de/de/home/home_node.html",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "domain": "science",
+      "id": "cern_science",
+      "name": "CERN Science",
+      "url": "https://home.cern/science",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://home.cern/science/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "science",
+      "id": "esa_science",
+      "name": "ESA Science",
+      "url": "https://www.esa.int/Science_Exploration",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.esa.int/Science_Exploration",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "science",
+      "id": "frontiers",
+      "name": "Frontiers",
+      "url": "https://www.frontiersin.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.frontiersin.org/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "science",
+      "id": "nasa_science",
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://science.nasa.gov/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "science",
+      "id": "national_academies",
+      "name": "National Academies",
+      "url": "https://www.nationalacademies.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nationalacademies.org/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "science",
+      "id": "ncbi_bookshelf",
+      "name": "NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.ncbi.nlm.nih.gov/books/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "science",
+      "id": "nist_research",
+      "name": "NIST Research",
+      "url": "https://www.nist.gov/laboratories",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.nist.gov/laboratories",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "science",
+      "id": "noaa_research",
+      "name": "NOAA Research",
+      "url": "https://www.noaa.gov/research",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.noaa.gov/research",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "science",
+      "id": "openstax_science",
+      "name": "OpenStax Science",
+      "url": "https://openstax.org/subjects/science",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://openstax.org/subjects/science",
+      "content_type": "text/html"
+    },
+    {
+      "domain": "science",
+      "id": "plos",
+      "name": "PLOS",
+      "url": "https://plos.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://plos.org/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "science",
+      "id": "royal_society",
+      "name": "Royal Society",
+      "url": "https://royalsociety.org/",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://royalsociety.org/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "domain": "science",
+      "id": "usgs_science",
+      "name": "USGS Science",
+      "url": "https://www.usgs.gov/science",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.usgs.gov/science",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "domain": "science",
+      "id": "who_science",
+      "name": "WHO Science",
+      "url": "https://www.who.int/health-topics",
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.who.int/health-topics",
+      "content_type": "text/html; charset=utf-8"
+    }
+  ]
+}

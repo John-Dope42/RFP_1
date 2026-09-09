@@ -1,0 +1,101 @@
+# Kuratierte, erweiterbare Quellen. 'metadata' ist nicht automatisch Trainingsinhalt.
+# Volltext wird nur genutzt, wenn eine explizite Wiederverwendungslizenz vorliegt.
+academic:
+  - id: openalex
+    type: api
+    authority: scholarly_metadata
+    url: https://api.openalex.org/works
+    enabled: true
+  - id: crossref
+    type: api
+    authority: scholarly_metadata
+    url: https://api.crossref.org/works
+    enabled: true
+  - id: rfii
+    type: web
+    authority: official_primary
+    url: https://rfii.de/de/dokumente/
+    fulltext_training: false
+    reason: "Open access is not automatically a reuse license; require explicit license."
+  - id: fraunhofer_publica
+    type: web
+    authority: official_primary
+    url: https://www.fraunhofer.de/de/mediathek/publikationen.html
+    fulltext_training: false
+    reason: "Use metadata/OA discovery; require explicit reuse license for training."
+  - id: mit_ocw
+    type: web
+    authority: university_oer
+    url: https://ocw.mit.edu/
+    fulltext_training: true
+    license: CC-BY-NC-SA
+    max_pages: 60
+
+# Bestehende Spezialquellen
+arma3:
+  - id: bohemia_community
+    domain: arma3_technical
+    authority: official_community_documentation
+    language: en
+    urls: [https://community.bohemia.net/wiki/Arma_3, https://community.bohemia.net/wiki/SQF, https://community.bohemia.net/wiki/Category:Scripting_Commands_Arma_3]
+    max_pages: 80
+  - id: cba_docs
+    domain: arma3_modding
+    authority: project_documentation
+    language: en
+    urls: [https://github.com/CBATeam/CBA_A3/wiki, https://github.com/CBATeam/CBA_A3]
+    max_pages: 60
+  - id: ace3_docs
+    domain: arma3_modding
+    authority: project_documentation
+    language: en
+    urls: [https://ace3.acemod.org/, https://ace3.acemod.org/wiki/]
+    max_pages: 60
+
+lifehacks:
+  - id: wikibooks_de
+    type: api
+    authority: open_licensed_reference
+    language: de
+    license: CC-BY-SA-3.0-or-GFDL
+    url: https://de.wikibooks.org/w/api.php
+
+military:
+  - id: us_army_doctrine
+    domain: military.us_army
+    authority: official_primary
+    language: en
+    urls: [https://usacac.army.mil/Organizations/CAC-Transformation-Integration-Directorate/CADD/Army-Doctrine-Hierarchy, https://armypubs.army.mil/ProductMaps/PubForm/ADP.aspx]
+    max_pages: 60
+  - id: bundeswehr_publications
+    domain: military.bundeswehr
+    authority: official_primary
+    language: de
+    urls: [https://www.bundeswehr.de/de/organisation/heer, https://www.bundeswehr.de/de/organisation/heer/aktuelles]
+    max_pages: 40
+  - id: british_army_public
+    domain: military.british_army
+    authority: official_primary
+    language: en
+    urls: [https://www.army.mod.uk/support-and-training/our-schools-and-colleges/centre-for-army-leadership/army-leadership-publications/, https://www.gov.uk/government/publications/uk-defence-doctrine-jdp-0-01]
+    max_pages: 40
+  - id: nato_public
+    domain: military.general
+    authority: official_primary
+    language: en
+    urls: [https://www.nato.int/cps/en/natohq/topics_49202.htm]
+    max_pages: 40
+
+milsim:
+  - id: bohemia_multiplayer
+    domain: milsim
+    authority: official_community_documentation
+    language: en
+    urls: [https://community.bohemia.net/wiki/Multiplayer_Scripting, https://community.bohemia.net/wiki/Arma_3:_Multiplayer]
+    max_pages: 40
+  - id: ace3_multiplayer_docs
+    domain: milsim
+    authority: project_documentation
+    language: en
+    urls: [https://ace3.acemod.org/wiki/framework/, https://ace3.acemod.org/wiki/functions/, https://ace3.acemod.org/wiki/development/]
+    max_pages: 40

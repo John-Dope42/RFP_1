@@ -1,0 +1,7 @@
+# Fine-Tuning-Balance: RAG behält alle Quellen, Fine-Tuning wird bewusst ausgeglichen.
+# Große Domänen werden auf target_per_domain heruntergesampelt, kleine bis dorthin
+# hochgesampelt (maximal max_oversample_factor-fach). Dadurch kann z.B. ein großer
+# Rechtsbestand nicht die übrigen Kernbereiche verdrängen.
+target_per_domain: 800
+max_oversample_factor: 4
+seed: 42

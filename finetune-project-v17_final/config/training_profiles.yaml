@@ -1,0 +1,40 @@
+# Erweiterbares Trainingsprofil. Neue Wissensgebiete müssen nicht im Trainer-Code
+# hardcodiert werden. Die Werte sind konservative Defaults für Qwen2.5-3B + 12GB.
+base_model: Qwen/Qwen2.5-3B-Instruct
+context_length: 4096
+seed: 42
+lora:
+  r: 64
+  alpha: 128
+  dropout: 0.05
+  target_modules: all-linear
+  quantization: nf4
+training:
+  epochs: 3
+  micro_batch_size: 1
+  gradient_accumulation_steps: 16
+  learning_rate: 0.0002
+  scheduler: cosine
+  warmup_steps: 50
+  optimizer: adamw_bnb_8bit
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  completion_only_loss: true
+  packing: false
+knowledge_domains:
+  - programming
+  - philosophy_ethics
+  - science
+  - gardening
+  - cannabis
+  - law
+  - arma3_technical
+  - arma3_modding
+  - milsim
+  - military.bundeswehr
+  - military.us_army
+  - military.british_army
+  - military.australian_army
+  - military.french_army
+  - military.polish_army
+  - military.general

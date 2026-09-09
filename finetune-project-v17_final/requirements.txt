@@ -1,0 +1,61 @@
+# Fine-Tuning Project – V16 compatibility requirements
+# Python: 3.10+ (3.11/3.12 are conservative choices for reproducibility)
+# RTX 3060 target: CUDA 12.6 PyTorch wheels.
+# This file is the single source of truth for Python dependencies.
+# Do not mix it with an older requirements_host.txt.
+
+--index-url https://download.pytorch.org/whl/cu126
+
+# PyTorch: CUDA 12.6 wheels. The upper bound keeps a future major CUDA/PyTorch
+# change from silently replacing a tested training stack.
+torch>=2.6,<2.14
+torchvision>=0.21,<0.29
+torchaudio>=2.6,<2.14
+
+# Hugging Face training stack. The trainer code is API-adaptive, but we keep the
+# supported lane inside current stable major versions rather than allowing an
+# unrelated future major release to break an otherwise reproducible environment.
+transformers>=4.56,<6
+peft>=0.20,<0.21
+trl>=1.10,<1.13
+accelerate>=1.14,<1.16
+bitsandbytes>=0.50,<0.51
+datasets>=5.0,<6
+
+# Tokenization / model files
+sentencepiece==0.2.2
+huggingface-hub>=0.34
+safetensors>=0.4.5
+
+# Monitoring
+tensorboard==2.17.0
+wandb==0.18.0
+
+# Data processing
+pymupdf==1.23.26
+python-docx==1.1.0
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# Web/API collectors
+requests==2.32.3
+arxiv==2.1.3
+wikipedia-api==0.6.0
+
+# Utilities
+tqdm==4.66.4
+pyyaml==6.0.1
+
+# Optional RAG
+chromadb>=1.0
+sentence-transformers>=3.0
+
+# Optional: Flash Attention 2
+# Install separately only when the local CUDA toolchain supports building it:
+# pip install flash-attn --no-build-isolation
+# train_custom.py falls back to PyTorch SDPA automatically when unavailable.
+
+# Optional: GGUF conversion
+# llama.cpp is intentionally managed outside this requirements file.
+# Clone/build llama.cpp with CUDA and install its own Python requirements when
+# using: python scripts/train.py --quantize ...

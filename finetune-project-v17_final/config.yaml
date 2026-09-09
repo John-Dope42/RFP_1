@@ -1,0 +1,117 @@
+# Axolotl-Referenzconfig: Qwen2.5-3B-Instruct QLoRA für Domain-Expert (DE/EU)
+# Hardware: RTX 3060 12GB VRAM -> QLoRA 4-bit, ~5-7GB VRAM usage bei 4K Context
+#
+# HINWEIS: Der Standard-Trainingsweg in diesem Projekt ist
+#   python scripts/train.py --config config.yaml
+# was intern scripts/train_custom.py (TRL SFTTrainer) aufruft - NICHT Axolotl.
+# Diese Datei dient primär als lesbare Dokumentation der Hyperparameter und
+# als Alternative, falls jemand stattdessen direkt `axolotl train config.yaml`
+# nutzen möchte. Die Werte hier sind bewusst identisch zu train_custom.py gehalten.
+
+base_model: Qwen/Qwen2.5-3B-Instruct
+model_type: AutoModelForCausalLM
+tokenizer_type: AutoTokenizer
+tokenizer_use_fast: true
+
+# ===== 4-bit QLoRA (NF4) =====
+load_in_4bit: true
+bnb_4bit_quant_type: nf4
+bnb_4bit_compute_dtype: bfloat16
+bnb_4bit_use_double_quant: true
+
+# ===== LoRA Config =====
+# Hinweis: Standard-LoRA statt AdaLoRA - siehe train_custom.py Docstring für Begründung
+# (AdaLoRA + 4-bit + Gradient Checkpointing ist eine wenig getestete, instabile Kombination).
+adapter: lora
+lora_r: 64
+lora_alpha: 128
+lora_dropout: 0.05
+lora_target_modules: all-linear
+
+# ===== Training Hyperparameters =====
+sequence_len: 4096          # 4K context (passt in 12GB mit grad_checkpointing)
+micro_batch_size: 1
+gradient_accumulation_steps: 16   # effective batch = 16
+num_epochs: 3
+learning_rate: 2.0e-4
+lr_scheduler: cosine
+warmup_steps: 50
+optimizer: adamw_bnb_8bit
+weight_decay: 0.01
+max_grad_norm: 1.0
+
+# ===== Precision & Memory =====
+bf16: auto                  # auto-detect BF16 support (Ampere+)
+tf32: true
+gradient_checkpointing: true
+flash_attention: false      # nur aktivieren, wenn `pip install flash-attn` erfolgreich war (optional, siehe README)
+
+# ===== Data Config =====
+# Nur die beiden expliziten Dateien nutzen - KEIN zusätzliches val_set_size,
+# sonst widersprüchliche Validation-Strategie.
+datasets:
+  - path: ./data/train.jsonl
+    type: chat_template
+    field_messages: messages
+    roles_to_train: ["assistant"]
+    train_on_eos: "turn"
+    assistant_only_loss: true
+
+test_datasets:
+  - path: ./data/val.jsonl
+    type: chat_template
+    field_messages: messages
+    roles_to_train: ["assistant"]
+
+# ===== Chat Template (Qwen2.5 = chatml) =====
+chat_template: chatml
+special_tokens:
+  eos_token: "<|im_end|>"
+  bos_token: "<|im_start|>"
+  pad_token: "<|im_end|>"   # Qwen nutzt eos als pad
+
+# ===== Output & Logging =====
+output_dir: ./output/qwen2.5-3b-domain-expert-de
+save_steps: 100
+eval_steps: 50
+logging_steps: 10
+save_total_limit: 3
+save_safetensors: true
+
+# ===== Eval/Save Strategy (konsistent: beide "steps", passend zu save_steps/eval_steps) =====
+eval_strategy: "steps"
+save_strategy: "steps"
+early_stopping_patience: 3
+early_stopping_threshold: 0.001
+
+# WandB (optional - auskommentieren wenn nicht gewollt)
+# wandb_project: qwen-domain-expert-de
+# wandb_watch: gradients
+# wandb_entity: your-username
+
+# ===== Advanced =====
+seed: 42
+ddp_find_unused_parameters: false
+dataloader_num_workers: 2
+dataloader_pin_memory: true
+remove_unused_columns: false
+label_names: ["labels"]
+
+# ===== Merge Config (für später, falls via Axolotl gemerged wird) =====
+# merge_lora: true
+# merge_output_dir: ./output/merged_model_qwen2.5-3b
+
+# ===== Erweiterbare Wissensgebiete =====
+# Die kanonische Domain-Konfiguration liegt zusätzlich in config/sources.yaml
+# und config/domain_balance.yaml. Neue Domains werden über metadata.domain erkannt.
+extensible_domains:
+  - arma3_technical
+  - arma3_modding
+  - milsim
+  - military.bundeswehr
+  - military.us_army
+  - military.british_army
+  - military.australian_army
+  - military.french_army
+  - military.polish_army
+  - military.general

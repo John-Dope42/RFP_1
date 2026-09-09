@@ -1,0 +1,149 @@
+# Supplemental source catalog. These are additional sources beyond the original
+# collectors. `mode` is either crawl (HTML/PDF) or github (public repository).
+# `use_for`: rag, qlora, both. Licenses are advisory; verify before redistribution.
+programming:
+  - {id: microsoft_learn_dotnet, name: Microsoft Learn .NET, url: https://learn.microsoft.com/dotnet/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 80}
+  - {id: microsoft_learn_python, name: Microsoft Learn Python, url: https://learn.microsoft.com/training/modules/intro-to-python/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 30}
+  - {id: java_oracle_docs, name: Oracle Java Docs, url: https://docs.oracle.com/en/java/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 80}
+  - {id: typescript_docs, name: TypeScript Handbook, url: https://www.typescriptlang.org/docs/handbook/intro.html, mode: crawl, authority: official, language: en, use_for: both, max_pages: 50}
+  - {id: nodejs_docs, name: Node.js API Docs, url: https://nodejs.org/docs/latest/api/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 80}
+  - {id: react_docs, name: React Docs, url: https://react.dev/learn, mode: crawl, authority: official, language: en, use_for: both, max_pages: 60}
+  - {id: cppreference, name: cppreference, url: https://en.cppreference.com/w/, mode: crawl, authority: reference, language: en, use_for: both, max_pages: 100}
+  - {id: rust_book, name: The Rust Book, url: https://doc.rust-lang.org/book/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 60}
+  - {id: go_docs, name: Go Documentation, url: https://go.dev/doc/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 60}
+  - {id: git_docs, name: Git Documentation, url: https://git-scm.com/docs, mode: crawl, authority: official, language: en, use_for: both, max_pages: 80}
+  - {id: docker_docs, name: Docker Docs, url: https://docs.docker.com/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 80}
+  - {id: kubernetes_docs, name: Kubernetes Docs, url: https://kubernetes.io/docs/home/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 100}
+  - {id: linux_kernel_docs, name: Linux Kernel Docs, url: https://docs.kernel.org/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 100}
+  - {id: postgresql_docs, name: PostgreSQL Docs, url: https://www.postgresql.org/docs/current/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 100}
+  - {id: sqlite_docs, name: SQLite Docs, url: https://www.sqlite.org/docs.html, mode: crawl, authority: official, language: en, use_for: both, max_pages: 60}
+
+science:
+  - {id: ncbi_bookshelf, name: NCBI Bookshelf, url: https://www.ncbi.nlm.nih.gov/books/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 80}
+  - {id: nasa_science, name: NASA Science, url: https://science.nasa.gov/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 60}
+  - {id: esa_science, name: ESA Science, url: https://www.esa.int/Science_Exploration, mode: crawl, authority: official, language: en, use_for: both, max_pages: 60}
+  - {id: noaa_research, name: NOAA Research, url: https://www.noaa.gov/research, mode: crawl, authority: official, language: en, use_for: both, max_pages: 60}
+  - {id: usgs_science, name: USGS Science, url: https://www.usgs.gov/science, mode: crawl, authority: official, language: en, use_for: both, max_pages: 60}
+  - {id: nist_research, name: NIST Research, url: https://www.nist.gov/laboratories, mode: crawl, authority: official, language: en, use_for: both, max_pages: 60}
+  - {id: cern_science, name: CERN Science, url: https://home.cern/science, mode: crawl, authority: official, language: en, use_for: both, max_pages: 50}
+  - {id: who_science, name: WHO Science, url: https://www.who.int/health-topics, mode: crawl, authority: official, language: en, use_for: both, max_pages: 80}
+  - {id: openstax_science, name: OpenStax Science, url: https://openstax.org/subjects/science, mode: crawl, authority: open_education, language: en, use_for: both, max_pages: 80}
+  - {id: national_academies, name: National Academies, url: https://www.nationalacademies.org/, mode: crawl, authority: expert_academy, language: en, use_for: both, max_pages: 60}
+  - {id: plos, name: PLOS, url: https://plos.org/, mode: crawl, authority: scientific_publisher, language: en, use_for: rag, max_pages: 40}
+  - {id: royal_society, name: Royal Society, url: https://royalsociety.org/, mode: crawl, authority: scientific_academy, language: en, use_for: rag, max_pages: 50}
+  - {id: frontiers, name: Frontiers, url: https://www.frontiersin.org/, mode: crawl, authority: scientific_publisher, language: en, use_for: rag, max_pages: 40}
+
+philosophy_ethics:
+  - {id: sep, name: Stanford Encyclopedia of Philosophy, url: https://plato.stanford.edu/, mode: crawl, authority: academic_reference, language: en, use_for: both, max_pages: 150}
+  - {id: iep, name: Internet Encyclopedia of Philosophy, url: https://iep.utm.edu/, mode: crawl, authority: academic_reference, language: en, use_for: both, max_pages: 100}
+  - {id: philpapers, name: PhilPapers, url: https://philpapers.org/, mode: crawl, authority: academic_index, language: en, use_for: rag, max_pages: 40}
+  - {id: philarchive, name: PhilArchive, url: https://philarchive.org/, mode: crawl, authority: academic_repository, language: en, use_for: rag, max_pages: 40}
+  - {id: mit_ocw_philosophy, name: MIT OpenCourseWare Philosophy, url: "https://ocw.mit.edu/search/?q=philosophy", mode: crawl, authority: university, language: en, use_for: both, max_pages: 60}
+  - {id: openstax_philosophy, name: OpenStax Philosophy, url: https://openstax.org/subjects/humanities, mode: crawl, authority: open_education, language: en, use_for: both, max_pages: 60}
+  - {id: internet_classics_archive, name: Internet Classics Archive, url: http://classics.mit.edu/, mode: crawl, authority: academic_archive, language: en, use_for: both, max_pages: 100}
+  - {id: gutenberg, name: Project Gutenberg, url: https://www.gutenberg.org/, mode: crawl, authority: public_domain_archive, language: en, use_for: both, max_pages: 50}
+  - {id: wikisource_en, name: English Wikisource, url: https://en.wikisource.org/wiki/Main_Page, mode: crawl, authority: community_archive, language: en, use_for: rag, max_pages: 50}
+  - {id: openlearn, name: OpenLearn, url: https://www.open.edu/openlearn/, mode: crawl, authority: university, language: en, use_for: both, max_pages: 60}
+  - {id: ethics_unwrapped, name: Ethics Unwrapped, url: https://ethicsunwrapped.utexas.edu/, mode: crawl, authority: university, language: en, use_for: both, max_pages: 60}
+  - {id: plato_de, name: Deutsche Philosophie Quellen, url: https://www.textlog.de/, mode: crawl, authority: archive, language: de, use_for: rag, max_pages: 50}
+
+# New gardening sources; existing project sources are intentionally not repeated here.
+gaertnern:
+  - {id: rhs, name: Royal Horticultural Society, url: https://www.rhs.org.uk/, mode: crawl, authority: professional_horticulture, language: en, use_for: both, max_pages: 120}
+  - {id: kew, name: Royal Botanic Gardens Kew, url: https://www.kew.org/, mode: crawl, authority: botanical_institution, language: en, use_for: both, max_pages: 80}
+  - {id: usda_plants, name: USDA Plants Database, url: https://plants.usda.gov/, mode: crawl, authority: official, language: en, use_for: both, max_pages: 60}
+  - {id: ncstate_extension, name: NC State Extension Gardener, url: https://extensiongardener.ces.ncsu.edu/, mode: crawl, authority: university_extension, language: en, use_for: both, max_pages: 100}
+  - {id: umn_extension, name: University of Minnesota Extension Garden, url: https://extension.umn.edu/yard-and-garden, mode: crawl, authority: university_extension, language: en, use_for: both, max_pages: 80}
+  - {id: missouri_botanical, name: Missouri Botanical Garden, url: https://www.missouribotanicalgarden.org/, mode: crawl, authority: botanical_institution, language: en, use_for: both, max_pages: 80}
+  - {id: rbge, name: Royal Botanic Garden Edinburgh, url: https://www.rbge.org.uk/, mode: crawl, authority: botanical_institution, language: en, use_for: both, max_pages: 60}
+  - {id: fao_agriculture, name: FAO Agriculture, url: https://www.fao.org/food-agriculture-statistics/en/, mode: crawl, authority: international_organization, language: en, use_for: both, max_pages: 80}
+  - {id: cabi, name: CABI, url: https://www.cabi.org/, mode: crawl, authority: scientific_organization, language: en, use_for: both, max_pages: 60}
+  - {id: eppo, name: EPPO, url: https://www.eppo.int/, mode: crawl, authority: international_organization, language: en, use_for: both, max_pages: 60}
+  - {id: rhs_plants, name: RHS Plant Search, url: https://www.rhs.org.uk/plants/search-form, mode: crawl, authority: professional_horticulture, language: en, use_for: rag, max_pages: 100}
+  - {id: jki, name: Julius Kühn-Institut, url: https://www.julius-kuehn.de/, mode: crawl, authority: official_research, language: de, use_for: both, max_pages: 80}
+  - {id: bmel_agriculture, name: BMEL Landwirtschaft, url: https://www.bmel.de/, mode: crawl, authority: official, language: de, use_for: both, max_pages: 60}
+
+cannabis_zucht_sommelier:
+  - {id: health_canada_cannabis, name: Health Canada Cannabis, url: https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis.html, mode: crawl, authority: official, language: en, use_for: both, max_pages: 80}
+  - {id: health_canada_research, name: Health Canada Cannabis Research, url: https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/industry-licensees-applicants/types-research.html, mode: crawl, authority: official, language: en, use_for: both, max_pages: 60}
+  - {id: nida_cannabis, name: NIDA Cannabis Research, url: https://nida.nih.gov/research-topics/cannabis-marijuana, mode: crawl, authority: official_research, language: en, use_for: both, max_pages: 60}
+  - {id: cdc_cannabis, name: CDC Cannabis, url: https://www.cdc.gov/cannabis/, mode: crawl, authority: official_public_health, language: en, use_for: both, max_pages: 50}
+  - {id: fda_cannabis, name: FDA Cannabis, url: https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd, mode: crawl, authority: official, language: en, use_for: both, max_pages: 50}
+  - {id: national_academies_cannabis, name: National Academies Cannabis Report, url: https://nap.nationalacademies.org/catalog/24625/the-health-effects-of-cannabis-and-cannabinoids, mode: crawl, authority: expert_academy, language: en, use_for: both, max_pages: 30}
+  - {id: journal_cannabis_research, name: Journal of Cannabis Research, url: https://jcannabisresearch.biomedcentral.com/, mode: crawl, authority: scientific_journal, language: en, use_for: rag, max_pages: 80}
+  - {id: frontiers_cannabis, name: Frontiers Cannabis Research, url: https://www.frontiersin.org/research-topics/16712/behind-the-smoke-and-mirrors-reflections-on-improving-cannabis-production-and-investigating-medical-potential, mode: crawl, authority: scientific_publisher, language: en, use_for: rag, max_pages: 60}
+  - {id: emcdda_cannabis_archive, name: EUDA Cannabis Topic, url: https://www.euda.europa.eu/topics/cannabis_en, mode: crawl, authority: official_eu_agency, language: en, use_for: both, max_pages: 60}
+  - {id: bfr_cannabis, name: BfR Cannabis Risk Assessment, url: https://www.bfr.bund.de/, mode: crawl, authority: official_research, language: de, use_for: both, max_pages: 50}
+  - {id: drugscience_cannabis, name: Drug Science Cannabis, url: https://www.drugscience.org.uk/, mode: crawl, authority: research_organization, language: en, use_for: rag, max_pages: 40}
+  - {id: pubchem_cannabinoids, name: PubChem, url: https://pubchem.ncbi.nlm.nih.gov/, mode: crawl, authority: official_database, language: en, use_for: rag, max_pages: 50}
+
+recht_de_eu:
+  - {id: bundestag_dip, name: Deutscher Bundestag Dokumentation, url: https://www.bundestag.de/dokumente, mode: crawl, authority: official, language: de, use_for: both, max_pages: 100}
+  - {id: bundesrat, name: Bundesrat, url: https://www.bundesrat.de/, mode: crawl, authority: official, language: de, use_for: both, max_pages: 80}
+  - {id: bverfg, name: Bundesverfassungsgericht, url: https://www.bundesverfassungsgericht.de/, mode: crawl, authority: official_court, language: de, use_for: both, max_pages: 120}
+  - {id: bgh, name: Bundesgerichtshof, url: https://www.bundesgerichtshof.de/, mode: crawl, authority: official_court, language: de, use_for: both, max_pages: 120}
+  - {id: bverwg, name: Bundesverwaltungsgericht, url: https://www.bverwg.de/, mode: crawl, authority: official_court, language: de, use_for: both, max_pages: 100}
+  - {id: bag, name: Bundesarbeitsgericht, url: https://www.bundesarbeitsgericht.de/, mode: crawl, authority: official_court, language: de, use_for: both, max_pages: 80}
+  - {id: bsg, name: Bundessozialgericht, url: https://www.bsg.bund.de/, mode: crawl, authority: official_court, language: de, use_for: both, max_pages: 80}
+  - {id: bfh, name: Bundesfinanzhof, url: https://www.bundesfinanzhof.de/, mode: crawl, authority: official_court, language: de, use_for: both, max_pages: 80}
+  - {id: curia, name: CURIA EuGH, url: https://curia.europa.eu/, mode: crawl, authority: official_court, language: de, use_for: both, max_pages: 120}
+  - {id: eu_justice, name: European e-Justice, url: https://e-justice.europa.eu/, mode: crawl, authority: official_eu, language: en, use_for: both, max_pages: 80}
+  - {id: recht_bund, name: Bundesgesetzblatt Portal, url: https://www.recht.bund.de/, mode: crawl, authority: official, language: de, use_for: both, max_pages: 100}
+  - {id: nlex, name: N-Lex, url: https://n-lex.europa.eu/, mode: crawl, authority: official_eu, language: en, use_for: rag, max_pages: 60}
+  - {id: bpatg, name: Bundespatentgericht, url: https://www.bundespatentgericht.de/, mode: crawl, authority: official_court, language: de, use_for: both, max_pages: 60}
+
+arma3_technical:
+  - {id: arma3_samples, name: Bohemia Arma 3 Samples, url: https://community.bohemia.net/wiki/Arma_3%3A_Asset_Samples, mode: github, authority: official_developer, language: en, use_for: both, max_pages: 500}
+  - {id: arma3_tools, name: Arma 3 Tools Wiki Category, url: https://community.bohemia.net/wiki/Category:Arma_3%3A_Official_Tools, mode: crawl, authority: official_community_documentation, language: en, use_for: both, max_pages: 80}
+  - {id: arma3_modding, name: Arma 3 Modding Category, url: https://community.bohemia.net/wiki/Category:Arma_3%3A_Editing, mode: crawl, authority: official_community_documentation, language: en, use_for: both, max_pages: 100}
+  - {id: cba_repo, name: CBA_A3 Repository, url: https://github.com/CBATeam/CBA_A3, mode: github, authority: project_documentation, language: en, use_for: both, max_pages: 800}
+  - {id: ace3_repo, name: ACE3 Repository, url: https://github.com/acemod/ACE3, mode: github, authority: project_documentation, language: en, use_for: both, max_pages: 1000}
+  - {id: alive_repo, name: ALiVE.OS, url: https://github.com/ALiVEOS/ALiVE.OS, mode: github, authority: project_documentation, language: en, use_for: both, max_pages: 800}
+  # HINWEIS: Es existiert parallel eine Community-Fortführung unter
+  # github.com/official-antistasi-community/A3-Antistasi ("Community Version -
+  # work in progress"). Welches Repo aktiver/aktueller ist, war in der
+  # Recherche nicht eindeutig zu klären - vor dem Crawl kurz beide Activity-Tabs vergleichen.
+  - {id: antistasi_repo, name: A3 Antistasi, url: https://github.com/A3Antistasi/A3-Antistasi, mode: github, authority: project_documentation, language: en, use_for: both, max_pages: 1000}
+  - {id: acre2_repo, name: ACRE2, url: https://github.com/IDI-Systems/acre2, mode: github, authority: project_documentation, language: en, use_for: both, max_pages: 800}
+  - {id: tfar_repo, name: Task Force Arma 3 Radio, url: https://github.com/michail-nikolaev/task-force-arma-3-radio, mode: github, authority: project_documentation, language: en, use_for: both, max_pages: 800}
+  - {id: cup_project_site, name: CUP (Community Upgrade Project), url: https://www.cup-arma3.org/, mode: crawl, authority: project_documentation, language: en, use_for: rag, max_pages: 60}
+  # BUGFIX: cup_terrains_repo/cup_weapons_repo zeigten auf github.com/CUP-Terrains
+  # und github.com/CUPWeapons - beide Orgs/Repos ließen sich nicht verifizieren.
+  # CUP wird laut allen gefundenen Quellen über cup-arma3.org und Steam Workshop
+  # vertrieben, nicht über eigenständige GitHub-Repos unter diesen Namen.
+  - {id: arma3_units, name: Arma 3 Units, url: https://units.arma3.com/, mode: crawl, authority: community, language: en, use_for: rag, max_pages: 40}
+
+military_general:
+  - {id: nato_strategic_concepts, name: NATO Strategic Concepts, url: https://www.nato.int/en/about-us/official-texts-and-resources/strategic-concepts, mode: crawl, authority: official_primary, language: en, use_for: both, max_pages: 40}
+  - {id: nato_topics, name: NATO Topics, url: https://www.nato.int/en/about-us/official-texts-and-resources, mode: crawl, authority: official_primary, language: en, use_for: both, max_pages: 80}
+  - {id: jcs_joint_doctrine, name: Joint Chiefs Joint Doctrine, url: https://www.jcs.mil/Doctrine/Joint-Doctrine-Pubs/, mode: crawl, authority: official_primary, language: en, use_for: both, max_pages: 80}
+  - {id: jcs_operations, name: Joint Operations Doctrine, url: https://www.jcs.mil/doctrine/joint-doctrine-pubs/3-0-operations-series/, mode: crawl, authority: official_primary, language: en, use_for: both, max_pages: 60}
+  - {id: army_university_press, name: Army University Press, url: https://www.armyupress.army.mil/Journals/, mode: crawl, authority: official_primary, language: en, use_for: both, max_pages: 80}
+  - {id: military_review, name: Military Review, url: https://www.armyupress.army.mil/Journals/Journals/Military-Review/, mode: crawl, authority: official_primary, language: en, use_for: rag, max_pages: 80}
+  # BUGFIX: TRADOC wurde am 26.09.2025 aufgelöst, Nachfolgeorganisation ist das
+  # "U.S. Army Transformation and Training Command" (T2COM, Austin TX, seit
+  # 02.10.2025). tradoc.army.mil ist damit vermutlich tot/umgeleitet - vor dem
+  # Crawl prüfen, ob die Domain noch lebt oder ob es eine offizielle T2COM-Seite gibt.
+  - {id: tradoc, name: T2COM (Nachfolgeorganisation von TRADOC), url: https://www.army.mil/t2com, mode: crawl, authority: official_primary, language: en, use_for: both, max_pages: 60}
+  - {id: defence_academy_uk, name: UK Defence Academy, url: https://www.da.mod.uk/, mode: crawl, authority: official_primary, language: en, use_for: rag, max_pages: 60}
+  - {id: zmsbw, name: ZMSBw, url: https://zms.bundeswehr.de/, mode: crawl, authority: official_research, language: de, use_for: both, max_pages: 80}
+  - {id: ifsh, name: IFSH, url: https://ifsh.de/, mode: crawl, authority: research_institute, language: de, use_for: rag, max_pages: 60}
+  - {id: swp, name: Stiftung Wissenschaft und Politik, url: https://www.swp-berlin.org/, mode: crawl, authority: research_institute, language: de, use_for: rag, max_pages: 60}
+  # HINWEIS: DCDC wurde im Juli 2024 in "Defence Futures" umbenannt (nach
+  # weiterer Reform teils "Defence Futures and Force Design"). Die URL selbst
+  # ist weiterhin gültig und erklärt die Umbenennung - nur der Anzeigename war veraltet.
+  - {id: dcdc, name: "UK Defence Futures (vormals DCDC)", url: https://www.gov.uk/government/groups/development-concepts-and-doctrine-centre, mode: crawl, authority: official_primary, language: en, use_for: both, max_pages: 80}
+
+milsim:
+  - {id: shack_tactical, name: Shack Tactical, url: https://dslyecxi.com/, mode: crawl, authority: community_milsim, language: en, use_for: both, max_pages: 80}
+  - {id: bohemia_forums, name: Bohemia Interactive Forums, url: https://forums.bohemia.net/, mode: crawl, authority: community, language: en, use_for: rag, max_pages: 100}
+  - {id: arma_units, name: Arma 3 Units, url: https://units.arma3.com/, mode: crawl, authority: community, language: en, use_for: rag, max_pages: 40}
+  - {id: antistasi_milsim, name: Antistasi Repository, url: https://github.com/A3Antistasi/A3-Antistasi, mode: github, authority: community_project, language: en, use_for: both, max_pages: 1000}
+  - {id: alive_milsim, name: ALiVE Repository, url: https://github.com/ALiVEOS/ALiVE.OS, mode: github, authority: community_project, language: en, use_for: both, max_pages: 800}
+  - {id: acre2_milsim, name: ACRE2 Repository, url: https://github.com/IDI-Systems/acre2, mode: github, authority: community_project, language: en, use_for: both, max_pages: 800}
+  - {id: tfar_milsim, name: TFAR Repository, url: https://github.com/michail-nikolaev/task-force-arma-3-radio, mode: github, authority: community_project, language: en, use_for: both, max_pages: 800}
+  - {id: ace3_milsim, name: ACE3 Repository, url: https://github.com/acemod/ACE3, mode: github, authority: community_project, language: en, use_for: both, max_pages: 1000}
+  - {id: arma_general_guides, name: Arma 3 General Guides Compilation, url: https://forums.bohemia.net/forums/topic/227697-arma-3-general-game-guides-faqs-manuals-tutorials-compilation/, mode: crawl, authority: community, language: en, use_for: both, max_pages: 30}
+  - {id: arma_steam_workshop, name: Arma 3 Steam Workshop, url: "https://steamcommunity.com/workshop/browse/?appid=107410", mode: crawl, authority: community, language: en, use_for: rag, max_pages: 40}
+  - {id: arma3_modding_community, name: Arma 3 Modding Community, url: https://forums.bohemia.net/forums/forum/116-arma-3-editing/, mode: crawl, authority: community, language: en, use_for: rag, max_pages: 80}
+  - {id: arma_scripting_forum, name: Arma 3 Scripting Forum, url: https://forums.bohemia.net/forums/forum/162-arma-3-scripting/, mode: crawl, authority: community, language: en, use_for: rag, max_pages: 80}
