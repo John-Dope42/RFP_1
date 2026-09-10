@@ -29,13 +29,13 @@ lora_dropout: 0.05
 lora_target_modules: all-linear
 
 # ===== Training Hyperparameters =====
-sequence_len: 4096          # 4K context (passt in 12GB mit grad_checkpointing)
-micro_batch_size: 1
-gradient_accumulation_steps: 16   # effective batch = 16
-num_epochs: 3
+sequence_len: 2048          # 4K context (passt in 12GB mit grad_checkpointing)
+micro_batch_size: 2
+gradient_accumulation_steps: 8   # effective batch = 16
+num_epochs: 2
 learning_rate: 2.0e-4
 lr_scheduler: cosine
-warmup_steps: 50
+warmup_steps: 100
 optimizer: adamw_bnb_8bit
 weight_decay: 0.01
 max_grad_norm: 1.0
@@ -73,7 +73,7 @@ special_tokens:
 # ===== Output & Logging =====
 output_dir: ./output/qwen2.5-3b-domain-expert-de
 save_steps: 100
-eval_steps: 50
+eval_steps: 100
 logging_steps: 10
 save_total_limit: 3
 save_safetensors: true

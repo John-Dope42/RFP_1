@@ -69,7 +69,7 @@ VAL_PATH = str(PROJECT_ROOT / "data" / "val.jsonl")
 OUTPUT_DIR = str(PROJECT_ROOT / "output" / "qwen2.5-3b-domain-expert-de")
 LOGS_DIR = PROJECT_ROOT / "logs"
 
-MAX_SEQ_LENGTH = 4096
+MAX_SEQ_LENGTH = 2048
 
 
 def detect_attn_implementation() -> str:
@@ -110,12 +110,12 @@ def _base_training_kwargs(debug: bool) -> dict:
     (SFTConfig ist eine Subklasse von TrainingArguments in allen gängigen TRL-Versionen)."""
     return dict(
         output_dir=OUTPUT_DIR,
-        num_train_epochs=3,
-        per_device_train_batch_size=1,
-        gradient_accumulation_steps=16,
+        num_train_epochs=2,
+        per_device_train_batch_size=2,
+        gradient_accumulation_steps=8,
         learning_rate=2e-4,
         lr_scheduler_type="cosine",
-        warmup_steps=50,
+        warmup_steps=100,
         optim="adamw_bnb_8bit",
         weight_decay=0.01,
         max_grad_norm=1.0,
@@ -126,7 +126,7 @@ def _base_training_kwargs(debug: bool) -> dict:
         gradient_checkpointing_kwargs={"use_reentrant": False},
         logging_steps=10,
         eval_strategy="steps",
-        eval_steps=50,
+        eval_steps=100,
         save_strategy="steps",
         save_steps=100,
         save_total_limit=3,
