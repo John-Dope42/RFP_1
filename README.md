@@ -157,4 +157,4 @@ python scripts/audit_dataset.py   # Dataset audit
 
 ---
 
-**Status V16**: Full integration of the collector, supplemental, RAG, dataset, and training pipelines. The documentation reflects the current feature set.
+**Status V17**: Full integration of the collector, supplemental, RAG, dataset, and training pipelines. The documentation reflects the current feature set.
