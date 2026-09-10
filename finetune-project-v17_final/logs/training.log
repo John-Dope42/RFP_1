@@ -63,3 +63,35 @@
 2026-09-10 11:46:30,208 - INFO - 🔧 TRL Version: 1.12.0 (SFTConfig verfügbar: True)
 2026-09-10 11:46:34,853 - INFO - 🏋️  Training läuft...
 2026-09-10 11:46:35,226 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/trl/SFTTrainer "HTTP/1.1 200 OK"
+2026-09-10 15:55:17,074 - INFO - 🚀 Starte QLoRA Fine-Tuning mit TRL SFTTrainer
+2026-09-10 15:55:17,074 - INFO - 📁 Modell: Qwen/Qwen2.5-3B-Instruct
+2026-09-10 15:55:17,074 - INFO - 📁 Output: C:\Users\fohle\Downloads\Projekt 42 Fintetune\github\RFP_1\finetune-project-v17_final\output\qwen2.5-3b-domain-expert-de
+2026-09-10 15:55:17,074 - INFO - 🧩 Attention-Implementierung: sdpa
+2026-09-10 15:55:17,074 - INFO - 🖥️  GPU: NVIDIA GeForce RTX 3060
+2026-09-10 15:55:17,074 - INFO - 💾 VRAM: 12.9 GB
+2026-09-10 15:55:17,074 - INFO - 🔤 Lade Tokenizer...
+2026-09-10 15:55:17,663 - INFO - HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 15:55:17,664 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-09-10 15:55:17,676 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json "HTTP/1.1 200 OK"
+2026-09-10 15:55:17,802 - INFO - HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 15:55:17,814 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-09-10 15:55:17,942 - INFO - HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-10 15:55:18,072 - INFO - HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-10 15:55:18,470 - INFO - HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+2026-09-10 15:55:18,471 - INFO - 🧠 Lade Modell in 4-bit...
+2026-09-10 15:55:18,595 - INFO - HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 15:55:18,608 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json "HTTP/1.1 200 OK"
+2026-09-10 15:55:18,736 - INFO - HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 15:55:18,748 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json "HTTP/1.1 200 OK"
+2026-09-10 15:55:22,402 - INFO - HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-10 15:55:22,414 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/generation_config.json "HTTP/1.1 200 OK"
+2026-09-10 15:55:22,552 - INFO - HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+2026-09-10 15:55:23,682 - INFO - 📊 Lade Datasets...
+2026-09-10 15:55:24,076 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/json/json.py "HTTP/1.1 200 OK"
+2026-09-10 15:55:24,216 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/json/json.py "HTTP/1.1 200 OK"
+2026-09-10 15:55:24,233 - INFO -    Dataset: conversational Prompt/Completion; Loss nur auf Completion.
+2026-09-10 15:55:24,233 - INFO -    Train: 6488 Beispiele
+2026-09-10 15:55:24,233 - INFO -    Val:   304 Beispiele
+2026-09-10 15:55:24,233 - INFO - 🔧 TRL Version: 1.12.0 (SFTConfig verfügbar: True)
+2026-09-10 15:55:28,293 - INFO - 🏋️  Training läuft...
+2026-09-10 15:55:28,655 - INFO - HTTP Request: HEAD https://huggingface.co/api/telemetry/trl/SFTTrainer "HTTP/1.1 200 OK"

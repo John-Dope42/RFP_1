@@ -69,7 +69,7 @@ VAL_PATH = str(PROJECT_ROOT / "data" / "val.jsonl")
 OUTPUT_DIR = str(PROJECT_ROOT / "output" / "qwen2.5-3b-domain-expert-de")
 LOGS_DIR = PROJECT_ROOT / "logs"
 
-MAX_SEQ_LENGTH = 2048
+MAX_SEQ_LENGTH = 1024
 
 
 def detect_attn_implementation() -> str:
@@ -115,7 +115,7 @@ def _base_training_kwargs(debug: bool) -> dict:
         gradient_accumulation_steps=8,
         learning_rate=2e-4,
         lr_scheduler_type="cosine",
-        warmup_steps=100,
+        warmup_steps=50,
         optim="adamw_bnb_8bit",
         weight_decay=0.01,
         max_grad_norm=1.0,

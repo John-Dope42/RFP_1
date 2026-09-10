@@ -29,13 +29,13 @@ lora_dropout: 0.05
 lora_target_modules: all-linear
 
 # ===== Training Hyperparameters =====
-sequence_len: 2048          # 4K context (passt in 12GB mit grad_checkpointing)
+sequence_len: 1024          
 micro_batch_size: 2
-gradient_accumulation_steps: 8   # effective batch = 16
+gradient_accumulation_steps: 8   
 num_epochs: 2
 learning_rate: 2.0e-4
 lr_scheduler: cosine
-warmup_steps: 100
+warmup_steps: 50
 optimizer: adamw_bnb_8bit
 weight_decay: 0.01
 max_grad_norm: 1.0
@@ -44,7 +44,7 @@ max_grad_norm: 1.0
 bf16: auto                  # auto-detect BF16 support (Ampere+)
 tf32: true
 gradient_checkpointing: true
-flash_attention: false      # nur aktivieren, wenn `pip install flash-attn` erfolgreich war (optional, siehe README)
+flash_attention: true      # nur aktivieren, wenn `pip install flash-attn` erfolgreich war (optional, siehe README)
 
 # ===== Data Config =====
 # Nur die beiden expliziten Dateien nutzen - KEIN zusätzliches val_set_size,

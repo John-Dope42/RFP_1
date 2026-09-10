@@ -1,7 +1,7 @@
 # Erweiterbares Trainingsprofil. Neue Wissensgebiete müssen nicht im Trainer-Code
 # hardcodiert werden. Die Werte sind konservative Defaults für Qwen2.5-3B + 12GB.
 base_model: Qwen/Qwen2.5-3B-Instruct
-context_length: 2048
+context_length: 1024
 seed: 42
 lora:
   r: 64
@@ -15,7 +15,7 @@ training:
   gradient_accumulation_steps: 8
   learning_rate: 0.0002
   scheduler: cosine
-  warmup_steps: 100
+  warmup_steps: 50
   optimizer: adamw_bnb_8bit
   weight_decay: 0.01
   max_grad_norm: 1.0
